@@ -1,0 +1,1631 @@
+desc: (none)
+cmd: ./EDistance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=4919352
+mem_heap_B=383628
+mem_heap_extra_B=388
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=10935278
+mem_heap_B=2326704
+mem_heap_extra_B=2328
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2326704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2220444 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 2220444 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 2220444 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 2220444 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 2220444 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 2200440 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 2200440 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 2200440 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 2040408 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 2040408 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 2040408 0x10A694: main (main.cpp:11)
+         n1: 160032 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 160032 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 160032 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 160032 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4906A99: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 33556 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=18186547
+mem_heap_B=4670244
+mem_heap_extra_B=4668
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4670244 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4560912 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 4560912 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 4560912 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 4560912 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 4560912 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 4540908 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 4540908 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 4540908 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 4360872 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 4360872 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 4360872 0x10A694: main (main.cpp:11)
+         n1: 180036 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 180036 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 180036 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 180036 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4906A99: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 36628 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=24015056
+mem_heap_B=6536760
+mem_heap_extra_B=6528
+mem_stacks_B=0
+heap_tree=detailed
+n3: 6536760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6421284 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 6421284 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 6421284 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 6421284 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 6421284 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 6401280 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 6401280 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 6401280 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 6201240 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 6201240 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 6201240 0x10A694: main (main.cpp:11)
+         n1: 200040 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 200040 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 200040 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 200040 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4906A99: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n0: 42772 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=28197804
+mem_heap_B=7897032
+mem_heap_extra_B=7888
+mem_stacks_B=0
+heap_tree=detailed
+n2: 7897032 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7781556 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 7781556 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 7781556 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 7781556 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 7781556 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 7761552 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 7761552 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 7761552 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 7561512 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 7561512 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 7561512 0x10A694: main (main.cpp:11)
+         n1: 200040 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 200040 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 200040 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 200040 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 115476 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=32995662
+mem_heap_B=9457344
+mem_heap_extra_B=9448
+mem_stacks_B=0
+heap_tree=detailed
+n2: 9457344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9341868 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 9341868 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 9341868 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 9341868 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 9341868 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 9321864 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 9321864 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 9321864 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 9121824 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 9121824 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 9121824 0x10A694: main (main.cpp:11)
+         n1: 200040 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 200040 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 200040 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 200040 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 115476 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=40161399
+mem_heap_B=11730084
+mem_heap_extra_B=11708
+mem_stacks_B=0
+heap_tree=detailed
+n2: 11730084 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 11602320 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 11602320 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 11602320 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 11602320 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 11602320 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 11582316 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 11582316 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 11582316 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 11362272 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 11362272 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 11362272 0x10A694: main (main.cpp:11)
+         n1: 220044 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 220044 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 220044 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 220044 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 127764 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=46866098
+mem_heap_B=13910520
+mem_heap_extra_B=13888
+mem_stacks_B=0
+heap_tree=detailed
+n2: 13910520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13782756 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 13782756 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 13782756 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 13782756 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 13782756 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 13762752 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 13762752 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 13762752 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 13542708 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 13542708 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 13542708 0x10A694: main (main.cpp:11)
+         n1: 220044 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 220044 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 220044 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 220044 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 127764 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=50741291
+mem_heap_B=15170772
+mem_heap_extra_B=15148
+mem_stacks_B=0
+heap_tree=detailed
+n2: 15170772 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15043008 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 15043008 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 15043008 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 15043008 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 15043008 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 15023004 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 15023004 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 15023004 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 14802960 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 14802960 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 14802960 0x10A694: main (main.cpp:11)
+         n1: 220044 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 220044 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 220044 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 220044 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 127764 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=54801017
+mem_heap_B=16491036
+mem_heap_extra_B=16468
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16491036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16363272 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 16363272 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 16363272 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 16363272 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 16363272 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 16343268 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 16343268 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 16343268 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 16123224 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 16123224 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 16123224 0x10A694: main (main.cpp:11)
+         n1: 220044 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 220044 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 220044 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 220044 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 127764 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=59229809
+mem_heap_B=17931324
+mem_heap_extra_B=17908
+mem_stacks_B=0
+heap_tree=detailed
+n2: 17931324 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17803560 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 17803560 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 17803560 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 17803560 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 17803560 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 17783556 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 17783556 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 17783556 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 17563512 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 17563512 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 17563512 0x10A694: main (main.cpp:11)
+         n1: 220044 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 220044 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 220044 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 220044 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 127764 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=64089178
+mem_heap_B=19511640
+mem_heap_extra_B=19488
+mem_stacks_B=0
+heap_tree=detailed
+n2: 19511640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 19383876 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 19383876 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 19383876 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 19383876 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 19383876 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 19363872 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 19363872 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 19363872 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 19143828 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 19143828 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 19143828 0x10A694: main (main.cpp:11)
+         n1: 220044 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 220044 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 220044 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 220044 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 127764 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=70361733
+mem_heap_B=21436596
+mem_heap_extra_B=21388
+mem_stacks_B=0
+heap_tree=detailed
+n2: 21436596 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21284256 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 21284256 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 21284256 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 21284256 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 21284256 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 21264252 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 21264252 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 21264252 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 21024204 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 21024204 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 21024204 0x10A694: main (main.cpp:11)
+         n1: 240048 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 240048 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 240048 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 240048 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=76082256
+mem_heap_B=23296968
+mem_heap_extra_B=23248
+mem_stacks_B=0
+heap_tree=detailed
+n2: 23296968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 23144628 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 23144628 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 23144628 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 23144628 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 23144628 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 23124624 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 23124624 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 23124624 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 22884576 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 22884576 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 22884576 0x10A694: main (main.cpp:11)
+         n1: 240048 0x10BDC1: void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&) (vector.tcc:449)
+          n1: 240048 0x10B7FF: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1195)
+           n1: 240048 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+            n0: 240048 0x10A694: main (main.cpp:11)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=82294867
+mem_heap_B=25317372
+mem_heap_extra_B=25268
+mem_stacks_B=0
+heap_tree=detailed
+n2: 25317372 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25165032 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 25165032 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 25165032 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 25165032 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 25165032 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 25145028 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 25145028 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 25145028 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 24904980 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 24904980 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 24904980 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=88999566
+mem_heap_B=27497808
+mem_heap_extra_B=27448
+mem_stacks_B=0
+heap_tree=detailed
+n2: 27497808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 27345468 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 27345468 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 27345468 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 27345468 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 27345468 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 27325464 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 27325464 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 27325464 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 27085416 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 27085416 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 27085416 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=96257864
+mem_heap_B=29858280
+mem_heap_extra_B=29808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 29858280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 29705940 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 29705940 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 29705940 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 29705940 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 29705940 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 29685936 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 29685936 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 29685936 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 29445888 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 29445888 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 29445888 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=100133057
+mem_heap_B=31118532
+mem_heap_extra_B=31068
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31118532 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 30966192 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 30966192 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 30966192 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 30966192 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 30966192 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 30946188 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 30946188 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 30946188 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 30706140 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 30706140 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 30706140 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=104131272
+mem_heap_B=32418792
+mem_heap_extra_B=32368
+mem_stacks_B=0
+heap_tree=detailed
+n2: 32418792 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32266452 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 32266452 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 32266452 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 32266452 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 32266452 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 32246448 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 32246448 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 32246448 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 32006400 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 32006400 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 32006400 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=108314020
+mem_heap_B=33779064
+mem_heap_extra_B=33728
+mem_stacks_B=0
+heap_tree=detailed
+n2: 33779064 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 33626724 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 33626724 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 33626724 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 33626724 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 33626724 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 33606720 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 33606720 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 33606720 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 33366672 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 33366672 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 33366672 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=112681301
+mem_heap_B=35199348
+mem_heap_extra_B=35148
+mem_stacks_B=0
+heap_tree=detailed
+n2: 35199348 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 35047008 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 35047008 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 35047008 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 35047008 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 35047008 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 35027004 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 35027004 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 35027004 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 34786956 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 34786956 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 34786956 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=117171604
+mem_heap_B=36659640
+mem_heap_extra_B=36608
+mem_stacks_B=0
+heap_tree=detailed
+n2: 36659640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36507300 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 36507300 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 36507300 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 36507300 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 36507300 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 36487296 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 36487296 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 36487296 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 36247248 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 36247248 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 36247248 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=121846440
+mem_heap_B=38179944
+mem_heap_extra_B=38128
+mem_stacks_B=0
+heap_tree=detailed
+n2: 38179944 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 38027604 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 38027604 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 38027604 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 38027604 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 38027604 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 38007600 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 38007600 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 38007600 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 37767552 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 37767552 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 37767552 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=126767320
+mem_heap_B=39780264
+mem_heap_extra_B=39728
+mem_stacks_B=0
+heap_tree=detailed
+n2: 39780264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 39627924 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 39627924 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 39627924 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 39627924 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 39627924 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 39607920 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 39607920 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 39607920 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 39367872 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 39367872 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 39367872 0x10A694: main (main.cpp:11)
+         n0: 240048 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 152340 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=132053154
+mem_heap_B=41249700
+mem_heap_extra_B=41148
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=136543457
+mem_heap_B=42729996
+mem_heap_extra_B=42628
+mem_stacks_B=0
+heap_tree=detailed
+n2: 42729996 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 42528504 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 42528504 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 42528504 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 42528504 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 42528504 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 42508500 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 42508500 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 42508500 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 42248448 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 42248448 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 42248448 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=142017936
+mem_heap_B=44510352
+mem_heap_extra_B=44408
+mem_stacks_B=0
+heap_tree=detailed
+n2: 44510352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 44308860 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 44308860 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 44308860 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 44308860 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 44308860 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 44288856 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 44288856 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 44288856 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 44028804 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 44028804 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 44028804 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=147676948
+mem_heap_B=46350720
+mem_heap_extra_B=46248
+mem_stacks_B=0
+heap_tree=detailed
+n2: 46350720 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 46149228 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 46149228 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 46149228 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 46149228 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 46149228 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 46129224 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 46129224 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 46129224 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 45869172 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 45869172 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 45869172 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=153582004
+mem_heap_B=48271104
+mem_heap_extra_B=48168
+mem_stacks_B=0
+heap_tree=detailed
+n2: 48271104 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 48069612 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 48069612 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 48069612 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 48069612 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 48069612 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 48049608 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 48049608 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 48049608 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 47789556 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 47789556 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 47789556 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=159733104
+mem_heap_B=50271504
+mem_heap_extra_B=50168
+mem_stacks_B=0
+heap_tree=detailed
+n2: 50271504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 50070012 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 50070012 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 50070012 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 50070012 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 50070012 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 50050008 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 50050008 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 50050008 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 49789956 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 49789956 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 49789956 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=164530962
+mem_heap_B=51831816
+mem_heap_extra_B=51728
+mem_stacks_B=0
+heap_tree=detailed
+n2: 51831816 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 51630324 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 51630324 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 51630324 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 51630324 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 51630324 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 51610320 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 51610320 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 51610320 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 51350268 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 51350268 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 51350268 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=171112639
+mem_heap_B=53972244
+mem_heap_extra_B=53868
+mem_stacks_B=0
+heap_tree=detailed
+n2: 53972244 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 53770752 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 53770752 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 53770752 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 53770752 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 53770752 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 53750748 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 53750748 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 53750748 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 53490696 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 53490696 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 53490696 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=177940360
+mem_heap_B=56192688
+mem_heap_extra_B=56088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56192688 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 55991196 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 55991196 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 55991196 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 55991196 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 55991196 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 55971192 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 55971192 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 55971192 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 55711140 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 55711140 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 55711140 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=185075636
+mem_heap_B=58513152
+mem_heap_extra_B=58408
+mem_stacks_B=0
+heap_tree=detailed
+n2: 58513152 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 58311660 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 58311660 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 58311660 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 58311660 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 58311660 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 58291656 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 58291656 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 58291656 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 58031604 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 58031604 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 58031604 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=192518467
+mem_heap_B=60933636
+mem_heap_extra_B=60828
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60933636 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60732144 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 60732144 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 60732144 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 60732144 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 60732144 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 60712140 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 60712140 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 60712140 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 60452088 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 60452088 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 60452088 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=200268853
+mem_heap_B=63454140
+mem_heap_extra_B=63348
+mem_stacks_B=0
+heap_tree=detailed
+n2: 63454140 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 63252648 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 63252648 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 63252648 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 63252648 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 63252648 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 63232644 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 63232644 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 63232644 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 62972592 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 62972592 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 62972592 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=204267068
+mem_heap_B=64754400
+mem_heap_extra_B=64648
+mem_stacks_B=0
+heap_tree=detailed
+n2: 64754400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 64552908 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 64552908 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 64552908 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 64552908 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 64552908 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 64532904 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 64532904 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 64532904 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 64272852 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 64272852 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 64272852 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=208326794
+mem_heap_B=66074664
+mem_heap_extra_B=65968
+mem_stacks_B=0
+heap_tree=detailed
+n2: 66074664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 65873172 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 65873172 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 65873172 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 65873172 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 65873172 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 65853168 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 65853168 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 65853168 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 65593116 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 65593116 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 65593116 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=212509542
+mem_heap_B=67434936
+mem_heap_extra_B=67328
+mem_stacks_B=0
+heap_tree=detailed
+n2: 67434936 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 67233444 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 67233444 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 67233444 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 67233444 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 67233444 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 67213440 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 67213440 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 67213440 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 66953388 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 66953388 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 66953388 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=216753801
+mem_heap_B=68815212
+mem_heap_extra_B=68708
+mem_stacks_B=0
+heap_tree=detailed
+n2: 68815212 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 68613720 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 68613720 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 68613720 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 68613720 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 68613720 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 68593716 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 68593716 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 68593716 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 68333664 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 68333664 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 68333664 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=221059571
+mem_heap_B=70215492
+mem_heap_extra_B=70108
+mem_stacks_B=0
+heap_tree=detailed
+n2: 70215492 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70014000 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 70014000 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 70014000 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 70014000 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 70014000 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 69993996 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 69993996 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 69993996 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 69733944 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 69733944 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 69733944 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=225488363
+mem_heap_B=71655780
+mem_heap_extra_B=71548
+mem_stacks_B=0
+heap_tree=detailed
+n2: 71655780 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 71454288 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 71454288 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 71454288 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 71454288 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 71454288 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 71434284 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 71434284 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 71434284 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 71174232 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 71174232 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 71174232 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=229978666
+mem_heap_B=73116072
+mem_heap_extra_B=73008
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73116072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72914580 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 72914580 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 72914580 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 72914580 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 72914580 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 72894576 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 72894576 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 72894576 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 72634524 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 72634524 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 72634524 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=234530480
+mem_heap_B=74596368
+mem_heap_extra_B=74488
+mem_stacks_B=0
+heap_tree=detailed
+n2: 74596368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 74394876 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 74394876 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 74394876 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 74394876 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 74394876 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 74374872 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 74374872 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 74374872 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 74114820 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 74114820 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 74114820 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=239205316
+mem_heap_B=76116672
+mem_heap_extra_B=76008
+mem_stacks_B=0
+heap_tree=detailed
+n2: 76116672 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 75915180 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 75915180 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 75915180 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 75915180 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 75915180 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 75895176 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 75895176 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 75895176 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 75635124 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 75635124 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 75635124 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=244003174
+mem_heap_B=77676984
+mem_heap_extra_B=77568
+mem_stacks_B=0
+heap_tree=detailed
+n2: 77676984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 77475492 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 77475492 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 77475492 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 77475492 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 77475492 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 77455488 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 77455488 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 77455488 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 77195436 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 77195436 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 77195436 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=248862543
+mem_heap_B=79257300
+mem_heap_extra_B=79148
+mem_stacks_B=0
+heap_tree=detailed
+n2: 79257300 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 79055808 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 79055808 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 79055808 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 79055808 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 79055808 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 79035804 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 79035804 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 79035804 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 78775752 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 78775752 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 78775752 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=256366885
+mem_heap_B=81697788
+mem_heap_extra_B=81588
+mem_stacks_B=0
+heap_tree=detailed
+n2: 81697788 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 81496296 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 81496296 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 81496296 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 81496296 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 81496296 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 81476292 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 81476292 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 81476292 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 81216240 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 81216240 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 81216240 0x10A694: main (main.cpp:11)
+         n0: 260052 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 201492 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=259556068
+mem_heap_B=82276188
+mem_heap_extra_B=82068
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=260294387
+mem_heap_B=82516236
+mem_heap_extra_B=82308
+mem_stacks_B=0
+heap_tree=detailed
+n2: 82516236 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 82216440 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 82216440 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 82216440 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 82216440 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 82216440 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 82196436 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 82196436 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 82196436 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 81916380 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 81916380 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 81916380 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=262877849
+mem_heap_B=83356404
+mem_heap_extra_B=83148
+mem_stacks_B=0
+heap_tree=detailed
+n2: 83356404 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 83056608 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 83056608 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 83056608 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 83056608 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 83056608 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 83036604 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 83036604 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 83036604 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 82756548 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 82756548 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 82756548 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=265461311
+mem_heap_B=84196572
+mem_heap_extra_B=83988
+mem_stacks_B=0
+heap_tree=detailed
+n2: 84196572 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 83896776 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 83896776 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 83896776 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 83896776 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 83896776 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 83876772 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 83876772 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 83876772 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 83596716 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 83596716 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 83596716 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=268106284
+mem_heap_B=85056744
+mem_heap_extra_B=84848
+mem_stacks_B=0
+heap_tree=detailed
+n2: 85056744 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 84756948 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 84756948 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 84756948 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 84756948 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 84756948 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 84736944 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 84736944 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 84736944 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 84456888 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 84456888 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 84456888 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=270751257
+mem_heap_B=85916916
+mem_heap_extra_B=85708
+mem_stacks_B=0
+heap_tree=detailed
+n2: 85916916 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85617120 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 85617120 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 85617120 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 85617120 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 85617120 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 85597116 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 85597116 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 85597116 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 85317060 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 85317060 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 85317060 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=273396230
+mem_heap_B=86777088
+mem_heap_extra_B=86568
+mem_stacks_B=0
+heap_tree=detailed
+n2: 86777088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 86477292 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 86477292 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 86477292 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 86477292 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 86477292 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 86457288 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 86457288 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 86457288 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 86177232 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 86177232 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 86177232 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=276102714
+mem_heap_B=87657264
+mem_heap_extra_B=87448
+mem_stacks_B=0
+heap_tree=detailed
+n2: 87657264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 87357468 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 87357468 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 87357468 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 87357468 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 87357468 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 87337464 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 87337464 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 87337464 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 87057408 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 87057408 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 87057408 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=278809198
+mem_heap_B=88537440
+mem_heap_extra_B=88328
+mem_stacks_B=0
+heap_tree=detailed
+n2: 88537440 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 88237644 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 88237644 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 88237644 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 88237644 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 88237644 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 88217640 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 88217640 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 88217640 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 87937584 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 87937584 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 87937584 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=281577193
+mem_heap_B=89437620
+mem_heap_extra_B=89228
+mem_stacks_B=0
+heap_tree=detailed
+n2: 89437620 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89137824 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 89137824 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 89137824 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 89137824 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 89137824 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 89117820 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 89117820 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 89117820 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 88837764 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 88837764 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 88837764 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=284345188
+mem_heap_B=90337800
+mem_heap_extra_B=90128
+mem_stacks_B=0
+heap_tree=detailed
+n2: 90337800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 90038004 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 90038004 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 90038004 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 90038004 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 90038004 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 90018000 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 90018000 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 90018000 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 89737944 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 89737944 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 89737944 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=287174694
+mem_heap_B=91257984
+mem_heap_extra_B=91048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 91257984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 90958188 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 90958188 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 90958188 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 90958188 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 90958188 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 90938184 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 90938184 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 90938184 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 90658128 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 90658128 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 90658128 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=290004200
+mem_heap_B=92178168
+mem_heap_extra_B=91968
+mem_stacks_B=0
+heap_tree=detailed
+n2: 92178168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 91878372 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 91878372 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 91878372 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 91878372 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 91878372 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 91858368 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 91858368 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 91858368 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 91578312 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 91578312 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 91578312 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=292895217
+mem_heap_B=93118356
+mem_heap_extra_B=92908
+mem_stacks_B=0
+heap_tree=detailed
+n2: 93118356 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 92818560 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 92818560 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 92818560 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 92818560 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 92818560 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 92798556 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 92798556 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 92798556 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 92518500 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 92518500 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 92518500 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=295786234
+mem_heap_B=94058544
+mem_heap_extra_B=93848
+mem_stacks_B=0
+heap_tree=detailed
+n2: 94058544 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93758748 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 93758748 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 93758748 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 93758748 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 93758748 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 93738744 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 93738744 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 93738744 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 93458688 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 93458688 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 93458688 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=298738762
+mem_heap_B=95018736
+mem_heap_extra_B=94808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 95018736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94718940 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 94718940 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 94718940 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 94718940 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 94718940 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 94698936 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 94698936 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 94698936 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 94418880 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 94418880 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 94418880 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=301691290
+mem_heap_B=95978928
+mem_heap_extra_B=95768
+mem_stacks_B=0
+heap_tree=detailed
+n2: 95978928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 95679132 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 95679132 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 95679132 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 95679132 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 95679132 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 95659128 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 95659128 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 95659128 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 95379072 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 95379072 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 95379072 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=304643818
+mem_heap_B=96939120
+mem_heap_extra_B=96728
+mem_stacks_B=0
+heap_tree=detailed
+n2: 96939120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 96639324 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 96639324 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 96639324 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 96639324 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 96639324 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 96619320 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 96619320 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 96619320 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 96339264 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 96339264 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 96339264 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=307657857
+mem_heap_B=97919316
+mem_heap_extra_B=97708
+mem_stacks_B=0
+heap_tree=detailed
+n2: 97919316 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 97619520 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 97619520 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 97619520 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 97619520 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 97619520 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 97599516 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 97599516 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 97599516 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 97319460 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 97319460 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 97319460 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=310671896
+mem_heap_B=98899512
+mem_heap_extra_B=98688
+mem_stacks_B=0
+heap_tree=detailed
+n2: 98899512 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98599716 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 98599716 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 98599716 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 98599716 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 98599716 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 98579712 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 98579712 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 98579712 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 98299656 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 98299656 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 98299656 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=313747446
+mem_heap_B=99899712
+mem_heap_extra_B=99688
+mem_stacks_B=0
+heap_tree=peak
+n2: 99899712 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 99599916 0x10CE3D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:114)
+  n1: 99599916 0x10CAD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:444)
+   n1: 99599916 0x10C75D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:343)
+    n1: 99599916 0x10C20E: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:358)
+     n2: 99599916 0x10BB0C: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:302)
+      n1: 99579912 0x10C84C: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (stl_vector.h:552)
+       n1: 99579912 0x10C336: void __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (new_allocator.h:147)
+        n2: 99579912 0x10BC49: void std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::allocator<std::vector<int, std::allocator<int> > >&, std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (alloc_traits.h:484)
+         n1: 99299856 0x10B7C7: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::push_back(std::vector<int, std::allocator<int> > const&) (stl_vector.h:1189)
+          n1: 99299856 0x10ABAA: EDistance::OptDistance() (EDistance.cpp:41)
+           n0: 99299856 0x10A694: main (main.cpp:11)
+         n0: 280056 in 1 place, below massif's threshold (1.00%)
+      n0: 20004 in 1 place, below massif's threshold (1.00%)
+ n0: 299796 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=7051994889
+mem_heap_B=100340313
+mem_heap_extra_B=100151
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=7056698632
+mem_heap_B=100388954
+mem_heap_extra_B=100174
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=7060628733
+mem_heap_B=100372713
+mem_heap_extra_B=100159
+mem_stacks_B=0
+heap_tree=empty
